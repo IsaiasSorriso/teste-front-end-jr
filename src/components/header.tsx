@@ -1,3 +1,5 @@
+import '../styles/header.scss';
+
 import iconeFavorit from '../imgs/header/Heart.png';
 import iconeUser from '../imgs/header/UserCircle.png';
 import iconeVector from '../imgs/header/Vector.png';
@@ -39,7 +41,7 @@ const Header: React.FC = () => {
         <div className="header__logo">
           <img src={logo} alt="VTEX Logo" />
         </div>
-        <div className="search">
+        <div className="header__search-search">
           <input
             type="search"
             className="header__search-input"
@@ -66,8 +68,8 @@ const Header: React.FC = () => {
         </div>
       </div>
       <div className="header__bottom">
-        <nav className="header__menu">
-          <ul className="header__menu-list">
+        <nav className="header__bottom-menu">
+          <ul className="header__bottom-menu-list">
             <li>
               <a href="#" className="header__menu-item">
                 Todas Categorias
