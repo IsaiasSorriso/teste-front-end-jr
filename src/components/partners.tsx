@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/styles.scss';
+import '../styles/partners.scss';
 import img_fundo from '../imgs/fundo/parceria.png';
 
 const Partners: React.FC = () => {
   return (
     <section className="partners">
-      <div className="container">
+      <div className="partners__container">
         <div className="partner-card">
           <img src={img_fundo} alt="Parceiro 2" className="partner-image"></img>
           <div className="partner-info">

@@ -67,12 +67,12 @@ const ListPhone: React.FC = ({ }) => {
 
   return (
     <section className="phone">
-      <button className="carousel__button prev" onClick={prevSlide} disabled={currentIndex === 0}>
+      <button className="phone__button prev" onClick={prevSlide} disabled={currentIndex === 0}>
         <img src={imgBefore} alt="" />
       </button>
-      <div className="carousel__track-container">
+      <div className="phone__track-container">
         <div
-          className="carousel__track"
+          className="phone__track"
           style={{
             transform: `translateX(-${10 * currentIndex}%)`,
           }}
@@ -94,7 +94,7 @@ const ListPhone: React.FC = ({ }) => {
           ))}
         </div>
       </div>
-      <button className="carousel__button next" onClick={nextSlide} disabled={currentIndex >= products.length - 1}>
+      <button className="phone__button next" onClick={nextSlide} disabled={currentIndex >= products.length - 1}>
         <img src={imgNext} alt="" />
       </button>
 

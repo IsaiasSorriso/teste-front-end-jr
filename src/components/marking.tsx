@@ -1,27 +1,27 @@
 import React from "react";
-import "../styles/styles.scss";
+import "../styles/marking.scss";
 import logo from "../imgs/logo-vtex/logo-vtex.png";
-// import'';
 
-const Marcas: React.FC = () => {
+
+const Markings: React.FC = () => {
   return (
-    <section className="marcas">
-      <div className="container">
+    <section className="markinks">
+      <div className="markinks__container">
         <h1>Navegue por marcas</h1>
-        <ul className="logo-marcas">
-          <li className="marca">
+        <ul className="markinks__container-logoMarcas">
+          <li className="markink">
             <img src={logo} alt="" />
           </li>
-          <li className="marca">
+          <li className="markink">
             <img src={logo} alt="" />
           </li>
-          <li className="marca">
+          <li className="markink">
             <img src={logo} alt="" />
           </li>
-          <li className="marca">
+          <li className="markink">
             <img src={logo} alt="" />
           </li>
-          <li className="marca">
+          <li className="markink">
             <img src={logo} alt="" />
           </li>
         </ul>
@@ -30,4 +30,4 @@ const Marcas: React.FC = () => {
   );
 };
 
-export default Marcas;
+export default Markings;

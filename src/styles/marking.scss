@@ -1,0 +1,35 @@
+.markinks {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+
+    &__container {
+
+        &-logoMarcas {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+    h1 {
+        color: #f71963;
+    }
+
+    
+    .markink {
+        border-radius: 50%;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.1);
+
+        img {
+            max-width: 80%;
+        }
+    }
+}

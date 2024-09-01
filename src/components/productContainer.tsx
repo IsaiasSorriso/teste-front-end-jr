@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/styles.scss';
+import '../styles/productContainer.scss';
 import img_fundo from '../imgs/fundo/produtos.png';
 
-const ProductList: React.FC = () => {
+const ProductContainer: React.FC = () => {
   return (
-    <section className="product-list">
-      <div className="container-product">
-        <div className="product-card">
+    <section className="container">
+      <div className="container__product">
+        <div className="container__product-card">
           <img src={img_fundo} alt="Parceiro 2" className="product-image"></img>
           <div className="product-info">
             <h2 className="product-title">Produtos</h2>
@@ -14,7 +14,7 @@ const ProductList: React.FC = () => {
             <a href="#" className="btn">Confira</a>
           </div>
         </div>
-        <div className="product-card">
+        <div className="container__product-card">
           <img src={img_fundo} alt="Parceiro 2" className="product-image"></img>
           <div className="product-info">
             <h2 className="product-title">Produtos</h2>
@@ -27,4 +27,4 @@ const ProductList: React.FC = () => {
   );
 };
 
-export default ProductList;
+export default ProductContainer;

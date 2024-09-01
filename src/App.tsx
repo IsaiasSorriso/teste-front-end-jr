@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from './components/header.tsx';
 import Banner from './components/banner';
 import Categories from './components/categories';
-import ProductList from './components/productList';
+import ProductContainer from './components/productContainer';
 import Partners from './components/partners';
 import Footer from './components/footer';
 import Phones from './components/listPhone';
@@ -28,7 +28,7 @@ const App: React.FC = () => {
       <Partners />
       <Sepatarion />
       <Phones />
-      <ProductList />
+      <ProductContainer />
       <Marcas />
       <Sepatarion />
       <Phones />

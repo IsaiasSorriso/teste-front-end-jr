@@ -1,0 +1,65 @@
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .partner-card {
+    position: relative;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .partner-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .partner-info {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      color: white;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+
+      .partner-title {
+        font-size: 29px;
+        font-weight: bold;
+        margin: 0;
+        position: relative;
+        bottom: 40px;
+      }
+
+      .partner-description {
+        font-size: 15px;
+        margin: 5px 0;
+        position: relative;
+        bottom: 20px;
+        width: 60%;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f71963;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #c2185b;
+        }
+      }
+    }
+  }
+}
