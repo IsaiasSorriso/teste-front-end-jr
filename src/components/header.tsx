@@ -1,3 +1,5 @@
+import '../styles/header.scss'
+
 import iconeFavorit from '../imgs/header/Heart.png';
 import iconeUser from '../imgs/header/UserCircle.png';
 import iconeVector from '../imgs/header/Vector.png';
