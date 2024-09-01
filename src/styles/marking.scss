@@ -4,6 +4,8 @@
     background-color: #fff;
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 
     &__container {
 
@@ -11,25 +13,26 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+            gap: 50px;
+
+            .markink {
+                border-radius: 50%;
+                justify-content: space-around;
+                display: flex;
+                align-items: center;
+                width: 150px;
+                height: 150px;
+                box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.1);
+
+                img {
+                    max-width: 80%;
+                }
+            }
+
         }
-    }
 
-    h1 {
-        color: #f71963;
-    }
-
-    
-    .markink {
-        border-radius: 50%;
-        justify-content: space-around;
-        display: flex;
-        align-items: center;
-        width: 150px;
-        height: 150px;
-        box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.1);
-
-        img {
-            max-width: 80%;
+        h1 {
+            color: #f71963;
         }
     }
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/styles.scss";
+import "../styles/footer.scss";
 import iconeFace from "../imgs/redes-sociais/023-facebook.png";
 import  iconeInsta from "../imgs/redes-sociais/044-instagram.png";
 import iconeYoutube from "../imgs/redes-sociais/116-youtube.png";
 
-import iconeLogos from "../imgs/letras-logos-branco/logos-Vtex-Econverse.png";
+import iconeLogos from "../imgs/logo-vtex/logos-Vtex-Econverse.png";
 
 import iconeVisa from "../imgs/icone-cartoes/visa.png";
 import iconeAlelo from "../imgs/icone-cartoes/alelo.png";

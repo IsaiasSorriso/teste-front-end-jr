@@ -14,57 +14,57 @@ const Categories: React.FC = () => {
     <section className="categories">
       <ul className="categories__list">
         <li className="category-item active">
-        <div className="icon-container">
-              <img src={iconeMonitor} alt="Tecnologia" />
-            </div>
+          <div className="icon-container">
+            <img src={iconeMonitor} alt="Tecnologia" />
+          </div>
           <a href="#">
             <span className="category-label">Tecnologia</span>
           </a>
         </li>
         <li className="category-item">
-        <div className="icon-container">
+          <div className="icon-container">
             <img src={iconeMercado} alt="Tecnologia" />
-            </div>
+          </div>
           <a href="#">
             <span className="category-label">Supermercado</span>
           </a>
         </li>
         <li className="category-item">
-        <div className="icon-container">
+          <div className="icon-container">
             <img src={iconeBebida} alt="Tecnologia" />
-            </div>
+          </div>
           <a href="#">
             <span className="category-label">Bebidas</span>
           </a>
         </li>
         <li className="category-item">
-            <div className="icon-container">
+          <div className="icon-container">
             <img src={iconeFerramentes} alt="Tecnologia" />
-            </div>
+          </div>
           <a href="#">
             <span className="category-label">Ferramentas</span>
           </a>
         </li>
         <li className="category-item">
-            <div className="icon-container">
+          <div className="icon-container">
             <img src={iconeSaude} alt="Tecnologia" />
-            </div>
+          </div>
           <a href="#">
             <span className="category-label">Saúde</span>
           </a>
         </li>
         <li className="category-item">
-            <div className="icon-container">
+          <div className="icon-container">
             <img src={iconeCorrida} alt="Tecnologia" />
-            </div>
+          </div>
           <a href="#">
             <span className="category-label">Esportes e Fitness</span>
           </a>
         </li>
         <li className="category-item">
-            <div className="icon-container">
+          <div className="icon-container">
             <img src={iconeModa} alt="Tecnologia" />
-            </div>
+          </div>
           <a href="#">
             <span className="category-label">Moda</span>
           </a>

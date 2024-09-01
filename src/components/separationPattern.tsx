@@ -1,16 +1,16 @@
 import React from 'react';
-import '../styles/styles.scss';
+import '../styles/separationPattern.scss';
 
 const Sepatarion: React.FC = () => {
     return (
-        <section className="related-products">
+        <section className="separation">
             <div className="container">
-                <div className="linha"></div>
+                <div className="line"></div>
                 <div className="text">
                     <h2 className="related-products-title">Produtos relacionados</h2>
                     <a href="#" className="view-all">Ver todos</a>
                 </div>
-                <div className="linha"></div>
+                <div className="line"></div>
             </div>
         </section>
     )

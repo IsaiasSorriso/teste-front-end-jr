@@ -1,0 +1,64 @@
+.separation {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #fff;
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 50px;
+    }
+  
+    .text {
+      width: 40%;
+    }
+  
+    .related-products-title {
+      font-size: 30px;
+      color: #f71963;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .line {
+      height: 0.1dvh;
+      width: 40%;
+      background-color: #c5c5c5;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    // .categorie-eletronico {
+    //   position: absolute;
+    //   width: 110%;
+    //   bottom: -60px;
+  
+    //   .list-eletronic {
+    //     display: flex;
+    //     align-items: center;
+    //     position: relative;
+    //     right: 25px;
+  
+    //     .type {
+    //       border: #bdbdbd 0.5px solid;
+    //       width: 55%;
+    //       padding: 10px;
+    //       color: #3B3B3B;
+    //     }
+    //   }
+    // }
+  
+    .view-all {
+      display: inline-block;
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }

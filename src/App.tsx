@@ -6,11 +6,10 @@ import ProductContainer from './components/productContainer';
 import Partners from './components/partners';
 import Footer from './components/footer';
 import Phones from './components/listPhone';
-import Sepatarion from './components/separation';
-import Sepatarion2 from './components/separation2';
+import Sepatarion from './components/separationPattern.tsx';
+import Sepatarion2 from './components/separationCategories.tsx';
 import Marcas from './components/marking.tsx';
 import '../src/App.scss';
-import './styles/styles.scss';
 import '../src/Product.js';
 
 

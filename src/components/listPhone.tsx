@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import ProductModal from './productModal'; // Importe o componente Modal
+import ProductModal from './phoneModal'; // Importe o componente Modal
 import '../styles/listPhone.scss';
 import imgNext from '../imgs/categorias/buttonNext.png';
 import imgBefore from '../imgs/categorias/buttonBefore.png';
