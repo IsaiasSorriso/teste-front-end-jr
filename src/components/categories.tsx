@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/styles.scss'
+import '../styles/categories.scss'
+
 import iconeMonitor from '../imgs/categorias/monitorar-tablet-e-smartohone.png';
 import iconeMercado from '../imgs/categorias/supermercados.png';
 import iconeFerramentes from '../imgs/categorias/ferramentas.png';
@@ -11,7 +12,7 @@ import iconeBebida from '../imgs/categorias/whiskey.png';
 const Categories: React.FC = () => {
   return (
     <section className="categories">
-      <ul className="category-list">
+      <ul className="categories__list">
         <li className="category-item active">
         <div className="icon-container">
               <img src={iconeMonitor} alt="Tecnologia" />
