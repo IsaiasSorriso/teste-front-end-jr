@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ProductModal from './productModal'; // Importe o componente Modal
-import '../styles/styles.scss';
+import '../styles/listPhone.scss';
 import imgNext from '../imgs/categorias/buttonNext.png';
 import imgBefore from '../imgs/categorias/buttonBefore.png';
 
@@ -12,10 +12,6 @@ interface Product {
   price: number;
 }
 
-
-// interface InfiniteCarouselProps {
-//   products: Product[];
-// }
 
 const ListPhone: React.FC = ({ }) => {
   const [products, setProducts] = useState<Product[]>([]);

@@ -1,0 +1,99 @@
+.phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  
+    .product-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+  
+      .product-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1px;
+      }
+  
+      .product-info {
+        height: 25dvh;
+        position: relative;
+        width: 100%;
+      }
+  
+      .product-title {
+        font-size: 16px;
+        color: #3F3F40;
+        font-weight: 300;
+        text-align: start;
+        position: absolute;
+      }
+  
+      .product-pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        top: 80px;
+      }
+  
+      .original-price {
+        text-decoration: line-through;
+        color: #888;
+        font-size: 20px;
+        bottom: -4dvh;
+        position: absolute;
+        text-align: start;
+      }
+  
+      .current-price {
+        font-size: 30px;
+        color: #3f3f40;
+        font-weight: bold;
+        bottom: -10dvh;
+        position: absolute;
+        text-align: start;
+      }
+  
+      .installments {
+        font-size: 12px;
+        color: #666;
+        position: absolute;
+        bottom: -10dvh;
+        width: 200px;
+        text-align: start;
+      }
+  
+      .free-shipping {
+        font-size: 12px;
+        color: #f71963;
+        font-weight: bold;
+        margin-bottom: 5px;
+        position: absolute;
+        bottom: 2px;
+        text-align: start;
+      }
+  
+      .buy-button {
+        background-color: #f71963;
+        color: #fff;
+        width: 100%;
+        font-weight: 600;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 0;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+    }
+  }
+  
