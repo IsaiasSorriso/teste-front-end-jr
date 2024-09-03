@@ -1,4 +1,5 @@
-import '../styles/header.scss'
+import React, { useState } from 'react';
+import '../styles/header.scss';
 
 import iconeFavorit from '../imgs/header/Heart.png';
 import iconeUser from '../imgs/header/UserCircle.png';
@@ -12,6 +13,12 @@ import logo from "../imgs/logo-vtex/logo-vtex.png";
 import coroa from '../imgs/header/CrownSimple.png';
 
 const Header: React.FC = () => {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const handleMenuItemClick = (index: number) => {
+    setActiveIndex(index);
+  };
+
   return (
     <header className="header">
       <nav className="header__nav">
@@ -70,47 +77,33 @@ const Header: React.FC = () => {
       <div className="header__bottom">
         <nav className="header__bottom-menu">
           <ul className="header__bottom-menu-list">
-            <li>
-              <a href="#" className="header__menu-item">
-                Todas Categorias
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 0 ? 'active' : ''}`} onClick={() => handleMenuItemClick(0)}>
+              Todas Categorias
             </li>
-            <li>
-              <a href="#" className="header__menu-item">
-                Supermercado
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 1 ? 'active' : ''}`} onClick={() => handleMenuItemClick(1)}>
+              Supermercado
             </li>
-            <li>
-              <a href="#" className="header__menu-item">
-                Livros
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 2 ? 'active' : ''}`} onClick={() => handleMenuItemClick(2)}>
+              Livros
             </li>
-            <li>
-              <a href="#" className="header__menu-item">
-                Moda
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 3 ? 'active' : ''}`} onClick={() => handleMenuItemClick(3)}>
+              Moda
             </li>
-            <li>
-              <a href="#" className="header__menu-item">
-                Lançamentos
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 4 ? 'active' : ''}`} onClick={() => handleMenuItemClick(4)}>
+              Lançamentos
             </li>
-            <li>
-              <a href="#" className="header__menu-item">
-                <b>Ofertas do Dia</b>
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 5 ? 'active' : ''}`} onClick={() => handleMenuItemClick(5)}>
+              Ofertas do Dia
             </li>
-            <li>
-              <a href="#" className="header__menu-item">
-                <img src={coroa} alt="Parcele suas compras" />
-                Assinatura
-              </a>
+            <li className={`header__bottom-menu-item ${activeIndex === 6 ? 'active' : ''}`} onClick={() => handleMenuItemClick(6)}>
+              <img src={coroa} alt="Assinatura" />
+              Assinatura
             </li>
           </ul>
         </nav>
       </div>
     </header>
-
   );
 };
+
 export default Header;
