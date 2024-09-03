@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/marking.scss";
 import logo from "../imgs/logo-vtex/logo-vtex.png";
+import imgNext from '../imgs/fundo/Vector.png';
 
 
 const Markings: React.FC = () => {
@@ -23,6 +24,9 @@ const Markings: React.FC = () => {
           </li>
           <li className="markink">
             <img src={logo} alt="" />
+          </li>
+          <li className="next">
+            <img src={imgNext} alt="" />
           </li>
         </ul>
       </div>
