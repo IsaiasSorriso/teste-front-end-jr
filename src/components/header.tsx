@@ -60,8 +60,8 @@ const Header: React.FC = () => {
           </button>
         </div>
         <div className="header__icons">
-          <a href="#" aria-label="Pedidos" className="header__icon-link">
-            <img src={iconeCarrinho} alt="Pedidos" />
+          <a href="#" aria-label="Carrinho" className="header__icon-link">
+            <img src={iconeCarrinho} alt="Carrinho" />
           </a>
           <a href="#" aria-label="Favoritos" className="header__icon-link">
             <img src={iconeFavorit} alt="Favoritos" />
@@ -69,8 +69,8 @@ const Header: React.FC = () => {
           <a href="#" aria-label="Perfil" className="header__icon-link">
             <img src={iconeUser} alt="Perfil" />
           </a>
-          <a href="#" aria-label="Carrinho" className="header__icon-link">
-            <img src={iconeVector} alt="Carrinho" />
+          <a href="#" aria-label="Pedidos" className="header__icon-link">
+            <img src={iconeVector} alt="Pedidos" />
           </a>
         </div>
       </div>
