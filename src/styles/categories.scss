@@ -13,12 +13,9 @@
     gap: 30px;
   }
 
-  .category-list li:first-child .icon-container {
-    background-color: #ffff;
-  }
-
   .category-item {
     text-align: center;
+    cursor: pointer;
 
     .icon-container {
       background-color: #F4F4F4;
@@ -29,6 +26,11 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
       margin-bottom: 20px;
+
+      // Adiciona cor rosa ao fundo da imagem quando ativa
+      &.active {
+        background-color: #fff;
+      }
     }
 
     a {
@@ -42,23 +44,34 @@
       .category-label {
         font-size: 14px;
         font-weight: 500;
+
+        // Cor da etiqueta quando ativa
+        &:hover {
+          color: #f71963;
+        }
       }
 
-      &:hover .category-label {
-        color: #f71963;
+      // Altera a cor da imagem para rosa quando o item está ativo
+      img.active-img {
+        filter: invert(1) sepia(1) saturate(5) hue-rotate(-50deg);
+        transition: filter 0.3s ease;
       }
     }
 
     &.active {
-
       .icon-container {
-        background-color: #fff;
+        background-color: #fff; // Muda a cor de fundo da imagem quando ativa
       }
 
       a {
         .category-label {
-          color: #f71963;
+          color: #f71963; // Cor da etiqueta quando o item está ativo
           margin-top: 20px;
+        }
+
+        // Aplica o filtro rosa à imagem quando o item está ativo
+        img.active-img {
+          filter: invert(1) sepia(1) saturate(5) hue-rotate(-50deg);
         }
       }
     }
